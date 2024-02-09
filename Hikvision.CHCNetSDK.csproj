@@ -6,7 +6,7 @@
     <AssemblyName>CHCNetSDK</AssemblyName>
     <LangVersion>10</LangVersion>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <Platforms>AnyCPU;x64;x86</Platforms>
+    <Platforms>AnyCPU</Platforms>
   </PropertyGroup>
   <ItemGroup>
     <None Update="x64\AudioRender.dll">
