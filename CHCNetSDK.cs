@@ -12,8 +12,7 @@ namespace Hikvision
 
         static CHCNetSDK()
         {
-            var assambly = System.Reflection.Assembly.GetEntryAssembly();
-			var path = System.IO.Path.GetDirectoryName(assambly?.Location);
+			var path = System.AppContext.BaseDirectory;
 			if (path == null)
 				return;
 			var is64 = IntPtr.Size == 8;
